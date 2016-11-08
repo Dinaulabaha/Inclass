@@ -6,12 +6,18 @@
   <title>Document</title>
 </head>
 <body>
-    <script type="text/javascript">
-        d3.csv("./stocks.csv", function(data) {
-        	console.log(data);
-        	//var parsedCSV = d3.csv.parseRows(data);
-        	//console.log(parsedCSV);
-        });
+<script type="text/javascript">
+
+d3.csv("./stocks.csv", 
+
+  function(data)
+  {
+    d.date = parseTime(d.date);
+    d.close = +d.close;
+    console.log(data);
+  }
+
+);
     </script> 
 </body>
 </html>
