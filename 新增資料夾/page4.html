@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	  <script src="https://d3js.org/d3.v4.min.js"></script>
+	<title>About Us</title>
+	<link rel="stylesheet" href="w3school.css">
+	<!-- <link rel="stylesheet" href=""> -->
+	<link rel="stylesheet" href="webpage.css">
+	<!-- <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"> -->
+	<script type="text/javascript" src="webpage.js"></script>
+</head>
+<body>
+	<div style="width:100%; height:100px">
+		<a href="page1.html">
+		<img src="logo.jpg" style="border-radius:100%;height:90px;margin-top:5px;margin-left:45%"/>
+		</a>
+	</div>
+	<div style="width:90%; margin-left:5%">
+		<ul class="w3-navbar">
+		<!--新聞地圖  -->
+			<li class="nav navHover"><a href="#">新聞地圖</a></li>
+		<!--教學影片  -->
+			<li class="w3-dropdown-hover nav">
+	    		<a class="navHover" href="#">教學影片</a>
+	    	<div class="w3-dropdown-content w3-white w3-card-4">
+	      		<a href="#" class="navHover">影片1</a>
+	      		<a href="#" class="navHover">影片2</a>
+	    	</div>
+	  		</li>
+	  	<!--關於我們  -->
+	    	<li class="w3-dropdown-hover nav">
+	    	  <a class="navHover" href="#">關於我們</a>
+	    	  <div class="w3-dropdown-content w3-white w3-card-4">
+	    	    <a href="#target1" class="navHover">成立初衷</a>
+	    	    <a href="#target2" class="navHover">組員名單</a>
+	    	    <a href="#target3" class="navHover">活動花絮</a>
+	    	  </div>
+	    	</li>
+		</ul>
+	  <!-- 劃出nav下的線 -->
+	  <div class="line"></div>
+	</div>
+
+	<div class="display" style="background-color:white">
+		<div style="display:inline-block;float:left;padding-top:120px;padding-right:50px;padding-left:100px">
+		</div>
+		<!-- 成立初衷 -->
+		<div style="width:450px; margin-left:33.3%">
+			<p class="subtitle" id="target1">成立初衷</p>
+			<p style="text-align:center;font-size:16px">
+				Salad Days，出自莎士比亞的《安東尼與克麗奧佩托拉》<br>用以形容充滿熱情、理想、純真的年輕時期。<br>
+				時至今日，Salad Days亦可作為人生高峰期的代稱，<br>
+				而這也正是我們對自己的期許。<br>
+				我們是風味各異的蔬果，如生菜一般的生手。<br>
+				但即便如此，也希望趁著新鮮年華，<br>
+				透過彼此的協調搭配，嘗試各式醬料主題，<br>
+				以完成最美味的佳餚，<br>
+				創造出獨一無二的Salad Days！
+			</p>
+		</div>
+		<!-- 組員名單 -->
+		<div style="width:100%;">
+			<p class="subtitle" id="target2">組員名單</p>
+			<div class="picture" style=""></div>
+			<div class="picture"></div>
+			<div class="picture"></div>
+			<div class="picture"></div>
+			<div class="picture"></div>
+		</div>
+
+		<!-- 活動花絮 -->
+		<div style="width:90%;margin-left:5%;margin-bottom:50px">
+			<p class="subtitle" id="target3">活動花絮</p>
+			<div style="width:90%;margin-left:5%;margin-bottom:50px; height:300px; background-color: #FFF4C1"></div>
+			<div style="width:90%;margin-left:5%;margin-bottom:50px; height:300px; background-color: #ccc">
+			</div>
+		</div>
+
+    </div>
+		
+
+
+</body>
+</html>
